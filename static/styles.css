@@ -1,0 +1,88 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    background-color: #000;         /* Black background */
+    color: #fff;                    /* White text */
+    font-family: "Courier New", monospace; /* Monospace font for "hacker" look */
+    display: flex;
+    justify-content: center;
+}
+
+/* Simple container to hold the page content */
+.container {
+    max-width: 800px;               /* Restricts width for readability */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px 0;
+    text-align:center;
+}
+
+header nav a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1-2em;
+}
+
+header nav a:hover {
+text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin: 50px 0;
+}
+
+.links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+,links h2 {
+    color: #00ff00;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.links a:hover {
+    text-decoration: underlines;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
